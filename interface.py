@@ -3,12 +3,15 @@ from calculo_prob import cls
 import calculo_prob as cp
 
 calculos= {
+    'Média aritimética':cp.media_aritimetica,
     'Probabilidade simples':cp.permu_simp,  #dicionario com os tipos de calculos e as funções desses calculos
     'Permutação simples':cp.permu_simp,
     'Arranjo simples':cp.arranjo_simp,
     'Combinação simples':cp.comb_simp,
     'Erro-padrão':cp.erro_padrao,
     'Distribuição padrão':cp.distribuicao_padrao,
+    'Distribuição binomial':cp.distr_binom,
+    'Média aritimética com intervalo simetrico bicaudal':cp.media_aritimetica_com_intervalo_simetrico_bicaudal,
     'Sair':'\n\n'
 }
 
