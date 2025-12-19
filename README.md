@@ -13,6 +13,7 @@ O programa abre um interface de termial com as seguintes opções:
 * Média aritimética com intervalo simetrico bicaudal
 * Sair
 
+  (Bíbliotecas usadas math e os)
   (Para testar o programa inicie interface.py)
 
   <img width="517" height="253" alt="image" src="https://github.com/user-attachments/assets/b891ee72-9efb-4215-92b1-770017633b97" />
