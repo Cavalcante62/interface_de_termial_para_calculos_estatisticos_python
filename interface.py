@@ -12,7 +12,6 @@ calculos= {
     'Distribuição padrão':cp.distribuicao_padrao,
     'Distribuição binomial':cp.distr_binom,
     'Média aritimética com intervalo simetrico bicaudal':cp.media_aritimetica_com_intervalo_simetrico_bicaudal,
-    'Sair':'\n\n'
 }
 
 quant= list(calculos.keys()) #faz uma lista com as chaves do dicionario
