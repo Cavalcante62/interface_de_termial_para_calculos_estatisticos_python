@@ -50,6 +50,11 @@ while True:
             indice= escolha-1
 
             resultado= funcao[indice]() #chama a função pelo numero que o usuário escolheu
+            
+            cls()
+            print(f'O resultado da conta de {quant[indice]} é: {resultado}')
+            print('Aperte qualquer tecla para continuar')
+            input()
         
         except ValueError:
             
