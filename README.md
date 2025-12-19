@@ -1,5 +1,5 @@
 # interface_de_termial_para_calculos_estatisticos_python
-interfaca de terminal simples com algumas funções para calculos estatísticos.
+interface de terminal simples com algumas funções para calculos estatísticos.
 
 O programa abre um interface de termial com as seguintes opções: 
 * Média aritimética
