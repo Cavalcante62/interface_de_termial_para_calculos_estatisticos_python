@@ -33,7 +33,7 @@ while True:
     except ValueError:
 
         #tratamento simples para uma entrada string
-        print('\n')
+        cls()
         print('Digite um numero inteiro\n'
               'pressione qualquer tecla para continuar')
         input()
