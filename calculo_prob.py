@@ -26,6 +26,8 @@ def media_aritimetica():
         contador+= 1
         som_val+= val
 
+        cls()
+        print('Digite 0 para parar\n')
         val= float(input('Digite o proximo valor\n'
                          'Valor:'))
 
