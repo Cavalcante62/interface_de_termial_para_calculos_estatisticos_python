@@ -1,0 +1,2 @@
+# interface_de_termial_para_calculos_estatisticos_python
+interfaca de terminal simples com algumas funções para calculos estatísticos
