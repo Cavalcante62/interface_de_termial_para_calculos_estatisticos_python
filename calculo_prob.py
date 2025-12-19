@@ -70,7 +70,7 @@ def permu_simp():
                     'Resposta:')
         cls()
 
-        if perg== 's':
+        if perg== 's' or perg== 'S':
 
             perg= int(input('Qual o numero de elementos com posição fixa?\n'
                              'Numero:'))
@@ -78,7 +78,7 @@ def permu_simp():
 
             return perg
         
-        elif perg== 'n':
+        elif perg== 'n' or perg== 'N':
             return 0
         
         else:
@@ -92,14 +92,14 @@ def permu_simp():
 
 
         
-        if perg== 's':
+        if perg== 's' or perg== 'S':
             perg= int(input('Quantos elementos aparecem juntos?\n'
                          'Resposta:'))
             cls()
             
             return perg-1
         
-        elif perg== 'n':
+        elif perg== 'n' or perg== 'N':
             return 0
         
         else:
@@ -134,14 +134,14 @@ def arranjo_simp():
                         'Resposta:')
             cls()
 
-            if perg== 's':
+            if perg== 's' or perg== 'S':
                 perg2= int(input('Deve começar/terminar com quantos elementos especificos?\n'
                                 'Quantidade:'))
                 cls()
 
                 return int((fat(eleme-perg2))/fat((eleme-perg2)-(arra-perg2)))
             
-            elif perg== 'n':
+            elif perg== 'n' or perg== 'N':
                 return
             
             else:
@@ -157,7 +157,7 @@ def arranjo_simp():
                         'Resposta:')
             cls()
 
-            if perg== 's':
+            if perg== 's' or perg== 'S':
                 
                 perg2= int(input('Quantos elementos especificos deve ter?\n'
                                  'Quantos:'))
@@ -165,7 +165,7 @@ def arranjo_simp():
 
                 return int((fat(eleme-perg2))/fat((eleme-perg2)-(arra-perg2)))
             
-            elif perg== 'n':
+            elif perg== 'n' or perg== 'N':
                 return
             
             else:
@@ -178,7 +178,7 @@ def arranjo_simp():
                         'Resposta:')
             cls()
             
-            if perg== 's':
+            if perg== 's' or perg== 'S':
 
                 perg2= int(input('Quantos elementos não deve ter?\n'
                                  'Quantidade:'))
@@ -188,7 +188,7 @@ def arranjo_simp():
                 
                 return nao_ha
             
-            elif perg== 'n':
+            elif perg== 'n' or perg== 'N':
                 return None
             
             else:
@@ -324,10 +324,10 @@ def distribuicao_padrao():
                 'Resposta:')
     cls()
 
-    if perg== 's':
+    if perg== 's' or perg== 'S':
         return probabilidade_de_Z(val_Z)
     
-    elif perg== 'n':
+    elif perg== 'n' or perg== 'N':
         return
     
     else:
