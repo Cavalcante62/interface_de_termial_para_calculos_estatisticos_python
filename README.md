@@ -15,7 +15,8 @@ O programa abre um interface de termial com as seguintes opções:
 
   (Para testar o programa inicie interface.py)
 
-  <img width="503" height="269" alt="image" src="https://github.com/user-attachments/assets/d651f68b-ed3d-440c-b642-34851f183b9f" />
+  <img width="517" height="253" alt="image" src="https://github.com/user-attachments/assets/b891ee72-9efb-4215-92b1-770017633b97" />
+
 
 
 As opções são numeradas de 1 a (numero de opções) e são escolhidas pelo numero.
