@@ -4,7 +4,7 @@ import calculo_prob as cp
 
 calculos= {
     'Média aritimética':cp.media_aritimetica,
-    'Probabilidade simples':cp.permu_simp,  #dicionario com os tipos de calculos e as funções desses calculos
+    'Probabilidade simples':cp.prob_marginal,  #dicionario com os tipos de calculos e as funções desses calculos
     'Permutação simples':cp.permu_simp,
     'Arranjo simples':cp.arranjo_simp,
     'Combinação simples':cp.comb_simp,
